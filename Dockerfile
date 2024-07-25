@@ -1,4 +1,4 @@
-FROM openjdk-8u111-jre-alpin
+FROM docker.io/library/openjdk:8-jre-alpine
 
 EXPOSE 8082
 ADD target/petclinic.war petclinic.war
