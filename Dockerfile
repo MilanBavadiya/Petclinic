@@ -1,4 +1,4 @@
-FROM docker.io/library/openjdk:8
+FROM openjdk:11-jdk
 
 EXPOSE 8082
 ADD target/petclinic.war petclinic.war
